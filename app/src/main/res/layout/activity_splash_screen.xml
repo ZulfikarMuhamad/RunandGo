@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.firdaus.runandgo.splashScreen"
-    android:background="@drawable/loadingscreen3">
+    android:background="@drawable/bg">
 
 </RelativeLayout>

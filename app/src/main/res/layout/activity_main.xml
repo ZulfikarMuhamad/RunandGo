@@ -9,29 +9,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/background">
+    android:background="@drawable/nameinput">
 
     <Button
-        android:text="Run"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:layout_marginBottom="145dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/inputbutton"
+        android:background="@drawable/gob"
+        android:layout_alignTop="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:onClick="onClick" />
 
     <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/editText2"
-        android:textSize="24sp"
-        android:textColorLink="@android:color/background_light"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:id="@+id/editText"
+        android:layout_marginBottom="168dp"
         android:background="@android:color/background_light"
-        android:layout_marginBottom="50dp"
-        android:textAlignment="center"
-        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
